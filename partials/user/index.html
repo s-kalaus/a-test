@@ -1,0 +1,34 @@
+<md-toolbar class="md-theme-indigo">
+
+    <div class="md-toolbar-tools">
+
+        <h1>Account</h1>
+
+        <div ng-include="'../partials/block/sidenav.html'"></div>
+    </div>
+</md-toolbar>
+
+<md-content layout-padding>
+
+    <form name="userForm">
+
+        <md-input-container class="md-block">
+
+            <label>Email</label>
+
+            <input type="email" ng-model="vm.card.email" md-maxlength="50" required />
+        </md-input-container>
+
+        <md-input-container class="md-block">
+
+            <label>Name</label>
+
+            <input ng-model="vm.card.name" md-maxlength="50" required />
+        </md-input-container>
+
+        <section layout="row" layout-sm="column" layout-wrap>
+
+            <md-button ng-click="vm.submit()" class="md-raised md-primary" ng-disabled="userForm.$invalid || userForm.$pristine">Save</md-button>
+        </section>
+    </form>
+</md-content>

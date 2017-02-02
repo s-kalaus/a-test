@@ -1,0 +1,32 @@
+.a-test{
+
+    .a-menu{
+        padding: 0;
+
+        .active{
+            background: #f1f1f1;
+        }
+    }
+
+    .a-toolbar{
+
+        min-height: 54px;
+
+        .title{
+            padding: 20px;
+        }
+    }
+
+    .a-authbar{
+
+        .name{
+            max-height: 54px;
+            height: 54px;
+            font-size: 16px;
+        }
+
+        .logout{
+            padding: 8px;
+        }
+    }
+}

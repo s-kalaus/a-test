@@ -1,0 +1,17 @@
+{
+    "name": "a-test",
+    "private": true,
+    "dependencies": {
+        "jquery": "latest",
+        "moment": "latest",
+        "angular": "latest",
+        "angular-resource": "latest",
+        "angular-route": "latest",
+        "angular-material": "latest",
+        "angular-material-data-table": "latest",
+        "async": "latest",
+        "lodash": "latest"
+    },
+    "resolutions": {
+    }
+}

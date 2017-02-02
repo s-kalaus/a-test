@@ -1,0 +1,17 @@
+{
+    "name": "a-test",
+    "version": "1.0.0",
+    "private": true,
+    "devDependencies": {
+        "async": "latest",
+        "gulp": "latest",
+        "gulp-if": "latest",
+        "gulp-concat": "latest",
+        "gulp-uglify": "latest",
+        "gulp-sass": "latest",
+        "gulp-html2js": "latest",
+        "gulp-watch": "latest",
+        "gulp-replace": "latest",
+        "gulp-clean-css": "latest"
+    }
+}
